@@ -8,6 +8,7 @@ packages = [{include = "data_science_container"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pandas = "^1.4.4"
 
 
 [build-system]

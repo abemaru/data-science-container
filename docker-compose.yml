@@ -1,5 +1,18 @@
-version: '3'
+version: '3.2'
 services:
   notebook:
     build: .
     tty: true
+    volumes:
+      - type: bind
+        source: "./pyproject.toml"
+        target: "/app/pyproject.toml"
+      - type: bind
+        source: "./input/"
+        target: "/app/input/"
+      - type: bind
+        source: "./output/"
+        target: "/app/output/"
+      - type: bind
+        source: "./notebooks"
+        target: "/app/notebooks"

@@ -11,4 +11,4 @@ RUN curl -sSL https://install.python-poetry.org | python3 && \
 
 #RUN poetry --version
 
-
+COPY . /app
