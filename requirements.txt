@@ -1,0 +1,10 @@
+numpy
+pandas
+seaborn
+optuna
+scikit-learn
+xgboost
+torch
+torchvision
+torchaudio
+jupyterlab

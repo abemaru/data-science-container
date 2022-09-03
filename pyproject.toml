@@ -2,13 +2,12 @@
 name = "data-science-container"
 version = "0.1.0"
 description = ""
-authors = ["abemaru"]
+authors = ["abemaru <ch4nge.lightening@gmail.com>"]
 readme = "README.md"
 packages = [{include = "data_science_container"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-pandas = "^1.4.4"
+python = "3.9"
 
 
 [build-system]
